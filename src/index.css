@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* This will show or hide the web browser's scrollbar  */
+.orderContainer::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+}
